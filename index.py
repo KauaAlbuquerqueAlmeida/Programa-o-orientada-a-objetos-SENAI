@@ -1,16 +1,18 @@
 from metodos import conta
+from metodos import Cliente
 loga = input ("Você ja posui uma conta? \n digite sim ou não: ")
 if (loga == "sim"):
     print ("Função em desenvouvimento!")
 else:
     print ("insira os dados para criar a sua conta-")
     titular = input ("insira o nome do usuario: ")
+    endereco = input ("insira seu endereco: ")
     numero = input ("insira seu numero de telefone: ")
     saldo = int(input ("insira o valor da conta: "))
     limite = int(input("insira o limite da conta:"))
     historico = {}
-    # cliente1 = 
-    conta1 = conta ( numero,titular, saldo, limite, historico)
+    cliente1 = Cliente (titular, endereco, numero)
+    conta1 = conta ( cliente1,numero, titular, saldo, limite, historico)
     valido = 1
     while( valido == 1 ):
         print (f"bem vindo ao Menu! usuario {conta1.titular}")
