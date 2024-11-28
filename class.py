@@ -3,7 +3,9 @@ class Cliente:
         self.nome = nome
         self.endereco = endereco
         self.telefone = telefone
-
+    
+    def exibir (Cliente):
+        print (f"Bem vindo!{Cliente.self.nome} ")
 
 class conta:
     def __init__(self, numero, titular, saldo, limite, saidas):
