@@ -1,3 +1,12 @@
+class Cliente:
+    def __init__(self, nome, endereco, telefone):
+        self.nome = nome
+        self.endereco = endereco
+        self.telefone = telefone
+    
+    def exibir (Cliente):
+        print (f"Bem vindo!{Cliente.self.nome} ")
+
 class conta:
     def __init__(self, numero, titular, saldo, limite, saidas):
         self.numero = numero
@@ -23,7 +32,5 @@ class conta:
         else:
             return False
     
-    
     def extrato(self):
         return f"Número da Conta: {self.numero}\nTitular: {self.titular}\nSaldo: R$ {self.saldo:.2f}\nLimite: R$ {self.limite:.2f} \n saidas: R$ {self.saidas:.2f}\n"
-    
