@@ -8,7 +8,8 @@ class Cliente:
         print (f"Bem vindo!{Cliente.self.nome} ")
 
 class conta:
-    def __init__(self, numero, titular, saldo, limite, saidas):
+    def __init__(self, cliente, numero, titular, saldo, limite, saidas):
+        self.cliente = cliente
         self.numero = numero
         self.titular = titular
         self.saldo = saldo
