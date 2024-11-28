@@ -18,7 +18,8 @@ class conta:
     def depositar(self, valor):
         if valor > 0:
             self.saldo += valor
-            self.saidas.append = {"entrada": valor, "valor_atual": self.saldo}
+            self.lista = {"entrada": valor, "valor_atual": self.saldo}
+            self.saidas.append(self.lista)
             return True
         else:
             return False
