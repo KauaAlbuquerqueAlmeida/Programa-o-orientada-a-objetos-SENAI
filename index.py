@@ -1,3 +1,5 @@
+# Miguel Borges da Silva N°22
+# KauÂ de Albuquerque Almeida N°17
 from metodos import conta
 from metodos import Cliente
 loga = input ("Você ja posui uma conta? \n digite sim ou não: ")

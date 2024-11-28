@@ -1,3 +1,5 @@
+# Miguel Borges da Silva N°22
+# KauÂ de Albuquerque Almeida N°17
 class Cliente:
     def __init__(self, nome, endereco, telefone):
         self.nome = nome
