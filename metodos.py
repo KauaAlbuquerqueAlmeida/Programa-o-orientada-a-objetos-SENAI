@@ -32,10 +32,11 @@ class conta:
         if self.saldo >= valor and valor <= self.limite:
 
             self.saldo -= valor
-            self.saidas.append = {"saida": valor, "valor_atual": self.saldo}
+            # self.saidas.append = {"saida": valor, "valor_atual": self.saldo}
+            # self.saidas.append(self.lista)
             return True
         else:
             return False
     
     def extrato(self):
-        return f"Número da Conta: {self.numero}\nTitular: {self.titular}\nSaldo: R$ {self.saldo:.2f}\nLimite: R$ {self.limite:.2f} \n saidas: R$ {self.saidas:.2f}\n"
+        print(f"Número da Conta: {self.numero}\nTitular: {self.titular}\nSaldo: R$ {self.saldo:.2f}\nLimite: R$ {self.limite:.2f} \n saidas: R$ {self.saidas:.2f}\n")
