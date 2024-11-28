@@ -1,6 +1,6 @@
 # from class import conta
 conta = input ("Você ja posui uma conta? \n digite sim ou não")
-if (conta == sim):
+if (conta == "sim"):
     print ("Função em desenvouvimento!")
 else:
     print ("insira os dados para criar a sua conta-")
