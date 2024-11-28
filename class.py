@@ -3,7 +3,6 @@ class Cliente:
         self.nome = nome
         self.endereco = endereco
         self.telefone = telefone
-        self.contas = []
 
 
 class conta:
